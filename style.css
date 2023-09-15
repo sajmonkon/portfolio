@@ -1,0 +1,36 @@
+body { text-align: center;
+    background-color: bisque;
+
+}
+header { color:bisque;
+    font-size: 40px;
+    background-color: black;
+}
+h2{
+    font-size: 30px;
+}
+
+
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Barva pozadí lišty */
+    overflow: hidden;
+}
+
+li.nav-item {
+    float: left;
+}
+
+li.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 100px;
+    text-decoration: none;
+}
+
+li.nav-item a:hover {
+    background-color: black; /* Barva pozadí po najetí myší */
+}
